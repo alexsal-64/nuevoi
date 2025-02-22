@@ -1,0 +1,18 @@
+usar git en linux con root
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+eval "$(/home/estudiante/miniconda3/bin/conda shell.bash hook)"
+conda create -n myenv
+conda activate myenv
+conda install git
+git version
+
+git clone https://github.com/git/git.git (clonar repositorio)
+git config --global user.name "Tu Nombre" (Configuracion)
+git config --global user.email "tu@email.com" (Configuracion)
+git add . (Agregar archivos de la carpeta que se este trabajando)
+git commit -m "Descripción de los cambios"
+git push
+
+Username for 'https://github.com': alexsal-64
+Password for 'https://alexsal-64@github.com': (pega aquí tu token)
